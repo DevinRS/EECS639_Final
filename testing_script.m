@@ -15,7 +15,8 @@ plot(x_vals, y_vals_vandermonde, 'r', x, y, 'bo');
 title('Vandermonde Interpolation');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 1b. Lagrange Interpolation
@@ -27,7 +28,8 @@ plot(x_vals, y_vals_lagrange, 'r', x, y, 'bo');
 title('Lagrange Interpolation');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 1c. Newton Interpolation
@@ -39,7 +41,8 @@ plot(x_vals, y_vals_newton, 'r', x, y, 'bo');
 title('Newton Interpolation');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 1d. Natural Cubic Spline Interpolation
@@ -51,7 +54,8 @@ plot(x_vals, y_vals_spline, 'r', x, y, 'bo');
 title('Natural Cubic Spline Interpolation');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 1e. Complete Cubic Spline Interpolation
@@ -63,7 +67,8 @@ plot(x_vals, y_vals_complete_spline, 'r', x, y, 'bo');
 title('Complete Cubic Spline Interpolation');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 1f. Not-a-knot Cubic Spline Interpolation
@@ -75,7 +80,8 @@ plot(x_vals, y_vals_notaknot_spline, 'r', x, y, 'bo');
 title('Not-a-knot Cubic Spline Interpolation');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % Adjust layout to make the subplots more readable
@@ -99,7 +105,8 @@ plot(x_vals, y_vals_vandermonde, 'r', x, y, 'bo');
 title('Vandermonde Interpolation: f(x) = 1/(1 + 12x^2)');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 2b. Lagrange Interpolation
@@ -111,7 +118,8 @@ plot(x_vals, y_vals_lagrange, 'r', x, y, 'bo');
 title('Lagrange Interpolation: f(x) = 1/(1 + 12x^2)');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 2c. Newton Interpolation
@@ -123,7 +131,8 @@ plot(x_vals, y_vals_newton, 'r', x, y, 'bo');
 title('Newton Interpolation: f(x) = 1/(1 + 12x^2)');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 2d. Natural Cubic Spline Interpolation
@@ -135,7 +144,8 @@ plot(x_vals, y_vals_spline, 'r', x, y, 'bo');
 title('Natural Cubic Spline Interpolation: f(x) = 1/(1 + 12x^2)');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 2e. Complete Cubic Spline Interpolation
@@ -147,7 +157,8 @@ plot(x_vals, y_vals_complete_spline, 'r', x, y, 'bo');
 title('Complete Cubic Spline Interpolation: f(x) = 1/(1 + 12x^2)');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 2f. Not-a-knot Cubic Spline Interpolation
@@ -159,7 +170,8 @@ plot(x_vals, y_vals_notaknot_spline, 'r', x, y, 'bo');
 title('Not-a-knot Cubic Spline Interpolation: f(x) = 1/(1 + 12x^2)');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % Adjust layout to make the subplots more readable
@@ -183,7 +195,8 @@ plot(x_vals, y_vals_vandermonde, 'r', x, y, 'bo');
 title('Vandermonde Interpolation: Given Data Points');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 3b. Lagrange Interpolation
@@ -195,7 +208,8 @@ plot(x_vals, y_vals_lagrange, 'r', x, y, 'bo');
 title('Lagrange Interpolation: Given Data Points');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 3c. Newton Interpolation
@@ -207,7 +221,8 @@ plot(x_vals, y_vals_newton, 'r', x, y, 'bo');
 title('Newton Interpolation: Given Data Points');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 3d. Natural Cubic Spline Interpolation
@@ -219,7 +234,8 @@ plot(x_vals, y_vals_spline, 'r', x, y, 'bo');
 title('Natural Cubic Spline Interpolation: Given Data Points');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 3e. Complete Cubic Spline Interpolation
@@ -231,7 +247,8 @@ plot(x_vals, y_vals_complete_spline, 'r', x, y, 'bo');
 title('Complete Cubic Spline Interpolation: Given Data Points');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % 3f. Not-a-knot Cubic Spline Interpolation
@@ -243,7 +260,8 @@ plot(x_vals, y_vals_notaknot_spline, 'r', x, y, 'bo');
 title('Not-a-knot Cubic Spline Interpolation: Given Data Points');
 xlabel('x');
 ylabel('y');
-legend('Interpolating Polynomial', 'Data Points');
+legend('Interpolating Polynomial', 'Data Points', 'Location', 'northwest');
+legend('boxoff');
 grid on;
 
 % Adjust layout to make the subplots more readable
