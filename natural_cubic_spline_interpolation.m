@@ -55,6 +55,10 @@ function coeff = natural_cubic_spline_interpolation_func(x, y)
     A(row_index, 4*(n - 1) - 3:4*(n - 1)) = [6*x(n), 2, 0, 0];
     b(row_index) = 0; % Corresponding b value
 
+    % Check conditioning
+    cond_num = cond(A);
+    disp("Condition number of the A matrix: " + cond_num);
+
     % 5. Solve the system of equations using LU decomposition
     [L, U, P] = lu(A);
     y_permuted = P * b;

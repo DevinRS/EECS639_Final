@@ -20,6 +20,10 @@ function coeff = vandermonde_interpolation_func(x, y)
         V(:, i) = x.^(i-1);
     end
 
+    % check conditioning
+    cond_num = cond(V);
+    disp("Condition number of the Vandermonde matrix: " + cond_num);
+
     % 3. Solve the Linear System using LU Decomposition with Partial Pivoting
     [L, U, P] = lu(V);
     y_permuted = P * y';
