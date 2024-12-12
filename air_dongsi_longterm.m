@@ -162,12 +162,12 @@ x = linspace(1, 4, 4);
 y = [29 44 20 16];
 x_vals = linspace(1, 4, 37);
 
-disp('Running Natural Cubic Spline Interpolation: dongsi M12 (4Y period)');
+disp('Running Natural Cubic Spline Interpolation: dongsi M11 (4Y period)');
 coeff_spline = natural_cubic_spline_interpolation(x, y);
 y_vals_spline = natural_cubic_spline_interpolation_eval(coeff_spline, x, x_vals);
 subplot(1, 3, 3);
 plot(x_vals, y_vals_spline, 'r', x, y, 'bo', x_vals, y_real, 'g');
-title('dongsi M12 (4Y period)');
+title('dongsi M11 (4Y period)');
 xlabel('Years');
 ylabel('SO2 levels');
 legend('Interpolating Polynomial', 'Data Points', 'Real Value', 'Location', 'northwest');
